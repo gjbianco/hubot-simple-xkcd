@@ -10,7 +10,7 @@
  */
 const getComic = require('./xkcd').getAnswer;
 module.exports = robot => {
-  robot.respond(/^!xkcd (.*)$/i, res => {
+  robot.hear(/^!xkcd (.*)$/i, res => {
     const query = escape(res.match[1]);
     getComic(query)
       .then(imgUrl => res.send(imgUrl))
