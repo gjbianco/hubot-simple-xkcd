@@ -1,0 +1,20 @@
+{
+  "name": "hubot-simple-xkcd",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Guy Bianco IV <gjbiancoiv@gmail.com>",
+  "homepage": "https://github.com/gjbianco/hubot-simple-xkcd#readme",
+  "license": "MIT",
+  "main": "src/robot.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjbianco/hubot-simple-xkcd.git"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "jest": "~24.8.0"
+  }
+}
