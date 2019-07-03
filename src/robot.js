@@ -8,7 +8,7 @@
  * Author:
  *   gjbianco
  */
-const getComic = require('./xkcd').getAnswer;
+const getComic = require('./xkcd').getComic;
 module.exports = robot => {
   robot.hear(/^!xkcd (.*)$/i, res => {
     const query = escape(res.match[1]);
